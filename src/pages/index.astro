@@ -1,18 +1,8 @@
 ---
+import Header from '../components/Header.astro';
 import Layout from '../layouts/main.astro'
 ---
 
 <Layout>
-  <div class="mt-40 container mx-auto flex justify-center flex-col">
-    <p class="text-2xl text-cyan-400 mb-8">Hi! My name is</p>
-    <h1 class="font-head text-6xl">Prateek Soni.</h1>
-    <h2 class="font-head text-6xl text-zinc-500 mt-4">I Build Blazingly-Fast Applications.</h2>
-                
-    <p class="mt-4 text-zinc-300 text-lg leading-relaxed">
-      I'm a Software Developer with experience in Web Technologies. <br/>
-      Currently, I'm working at Miles Technologies.
-    </p>
-
-    <button class="w-max border-2 text-cyan-400 border-cyan-400 mt-8 py-3 px-6 rounded font-bold">Check My Work</button>
-  </div>
+  <Header />
 </Layout>
